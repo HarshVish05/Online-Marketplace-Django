@@ -1,0 +1,38 @@
+python -m venv env - creates a venv named env
+
+env/scripts/activate - activates the venv 
+
+pip install django = install django in venv
+
+django-admin startproject puddle - starts a django project named puddle
+
+py manage.py runserver   = to start the server
+
+py manage.py startapp nameofapp = to create a new django- app
+
+py .\manage.py makemigrations - to create/update a database
+
+py .\manage.py migrate = to execute the script
+
+you have to create a user to add data into the database
+py manage.py createsuperuser = to create the user
+
+
+
+
+
+
+
+structure information :-
+
+manage.py - for running admin structures like database structures
+
+asgi.py, wsgi.py = entry point for the web server
+
+settings.py = global config for our whole project
+
+admin.py = where we register the database model to be used inside the django admin interface
+
+apps.py = config file for that specific app
+
+models.py = where we create database models
